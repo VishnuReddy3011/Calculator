@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis {
+    height: 80px;
+    width: 350px;
+    margin: auto;
+    background-color: black;
+}
+.val{
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    background-color: black;
+}
+
+.display-box {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #dcdbe1;
+    border-radius: 5px;
+    width: 90%;
+    height: 65%;
+}
+
+.display-box2 {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #dcdbe1;
+    color: black;
+    border-radius: 5px;
+    width: 90%;
+    height: 65%;
+    text-align: end;
+}
+
+    
+#btn {
+    background-color: black;
+    transition: 0.4s ease;
+}
+
+#btn:hover{
+    background-color: red;
+    
+}
+
+#dele {
+    background-color: black;
+    transition: 0.4s ease;
+}
+#dele:hover{
+    background-color: red;
+}
+.my-btn{
+    transition: 0.4s ease;
+}
+
+.my-btn:hover{
+    background-color: orange;
+
+}
+.ind{
+    transition: 0.4s ease;
+}
+
+.ind:hover {
+    background-color: blue;
+
+}
+    
+input[type=button] {
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+    
